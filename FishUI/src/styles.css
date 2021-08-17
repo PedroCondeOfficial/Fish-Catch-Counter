@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #e8fcff  ;
+    font-family: 'Lobster', cursive;
+    
+}
+
+
+.add-button {
+    width: 10%;
+}
+
+div {
+    padding-top: .5%;
+    padding-bottom: .5%;
+}

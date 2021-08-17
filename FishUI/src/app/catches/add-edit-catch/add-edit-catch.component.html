@@ -1,0 +1,11 @@
+
+<label>Species</label>
+<input [(ngModel)]="Species" class="form-control" type="text" placeholder="Enter species name">
+<br>
+<br>
+<label>Length</label>
+<input [(ngModel)]="FishLength" class="form-control" type="text" placeholder="Enter length (in)">
+
+<button (click)="addCatch()" *ngIf="catch.CatchId==0">Add</button>
+<button (click)="editCatch()" *ngIf="catch.CatchId!=0">Update</button>
+

@@ -1,0 +1,24 @@
+<div>
+    <table class="table table-striped table-hover">
+        <thead class="thead-dark">
+            <th>Species</th>
+            <th>Measurement Length</th>
+            <th>Minimum Length</th>
+            <th>Maximum Length</th>
+            <th>Bag Limit</th>
+            <th>Trophy</th>
+            <th>Aggregate</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let fish of fishList">
+                <td>{{fish.Species}}</td>
+                <td>{{fish.MeasurementMethod}}</td>
+                <td>{{fish.MinimumLength}}</td>
+                <td>{{fish.MaximumLength}}</td>
+                <td>{{fish.BagLimit}}</td>
+                <td>{{fish.Trophy}}</td>
+                <td>{{fish.Agg}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
